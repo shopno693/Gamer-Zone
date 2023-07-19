@@ -123,3 +123,68 @@
 }
 
 /* header section end  */
+/* <!-- online games section start  -->  */
+
+.online-games-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online-games-text h1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 27px;
+}
+.online-games-text p {
+  margin-bottom: 23px;
+  font-size: 12px;
+  color:#534C64 ;
+}
+.text-color-linear{
+  background-image: linear-gradient(to bottom,#e78cbb,#cf25de);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+.single-card {
+  height: 250px;
+  width: 188px; 
+}
+
+.single-card:hover .hoverr {
+
+  visibility: visible; 
+}
+.hoverr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 220px;
+  width: 188px;
+  border-radius: 10px;
+  background-color: #0b0223a0;
+  opacity: 1.5;
+  visibility: hidden;
+}
+.hoverr:hover {
+  visibility: visible;
+}
+
+.single-card p{
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 18px;
+  color: #534C64;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+.card-img {
+  width: 100%;
+}
+
+/* <!-- online games section end -->  */
